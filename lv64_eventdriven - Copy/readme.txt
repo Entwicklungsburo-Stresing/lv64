@@ -6,24 +6,18 @@ LoopselFF
 implements a very constant measure loop outside labview
 reads a complete block of nos scans
 during block read, the thread is highest 
-a new block can be started immediately (int.) or triggered by ext. trig (S1,S2) or by the space key.
-After all blocks are assembled the Flag MeasureON goes low and
-the system stops (if not continuous) or starts all over (if continuous).
-
 We recommend this example as starting point for own applications.
 Call the SetupDMA vi only once with the max. RAM you will ever need.
 As this takes a while, you should use smaller sub buffers by using parts of this big buffer
-
-to allocate new buffers of other size, press alloc mem again.
+and should not allocate new buffers again.
 
 usage:
 after read the slider can select the scan which is displayed
-in pixel 5 the block counter can be seen
-in pixel 6(hi word) and 7(lo word) the scan counter.
+first hit run, then hit arm/clear and then read.
+For a new block of scans press stop then arm and then read again.
 
 
 About
-test for data access of PCIE board.
 can read the registers of the PCIE board.
 should not deliver zeros or 0xFF
 
