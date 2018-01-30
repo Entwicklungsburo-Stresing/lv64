@@ -1,0 +1,56 @@
+RingBlockSel2
+
+this example works like a sampling scope.
+it is a quite sophisticated usage of a multi threaded system and works only with multi core systems.
+the background thread is startet and writes scans to the ring buffer which is not accessable directly.
+stopp will cancel this main thread
+
+when calling ReadRingBlock all scans around this calling time stamp are copied from the ring 
+buffer to the user buffer.
+the range can be negative= in the past
+and positive= in the future.
+for example:
+start=-50 and stop=+10 would work like:
+wait for 10 additional scans and copy then the last 61 scans to the user buffer
+start=stop=0 would copy only the last scan -> used in RingGetCam
+
+usage: 
+if stop fetch is pushed, the data is copied once to user buffer and the slider can walk trough the buffer.
+if stop fetch is not pushed, the user buffer data is overwritten by each call of ReadRingBlock. 
+
+timer example: 
+ReadRingBlock is called by the timer each i.e. 50ms
+
+ext block trigger example.
+ReadRingBlock is called by an external trigger event.
+here the function SRingBlockTrig(ch) is used 
+ch=1 -> PCI trig in starts block copy
+ch=2 -> opto1 starts block copy
+ch=3 -> opto2 starts block copy
+note: opto1&2 are optional PCI board trigger inputs (must be ordered separately)
+the call just reads the binary state of the signal.
+so if you need to wait for a pos. slope, you must run a loop until it is low
+and then a loop until it goes high -> see example.
+
+
+Trigger ext/int selects the trigger for each single scan, not the block copy
+if ext it triggers each laser shot
+if int it triggers by timer with exposuretime
+
+if trigger is ext, it can not be used at the same time for the block copy.
+here you need the opto1&2 option.
+
+
+be sure that RingBufDepth is bigger + reserve than the range stop-start
+
+block copy
+timing measured with W7/32 intel 8core 2.8GHz
+memcopy(10 longs) -> needs 5µs
+memcopy(100 longs) -> needs 13µs
+memcopy(1000 longs) -> needs 130µs
+
+if the block is bigger than 4000 it should be broken into smaller pieces.
+if you need help here, please ask.
+
+
+
