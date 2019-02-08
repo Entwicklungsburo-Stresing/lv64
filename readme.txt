@@ -1,20 +1,29 @@
- labview examples
-these examples shows how to read a camera.
+Howto operate the cameras with LabVIEW
 
+Usage:
+The camera can perform a specific number of samples in a block-wise fashion.
+The number of samples per block (nos) and the number of total blocks (nob)
+are defined in the lower left box of the conrol front panel.
 
-LoopselFF
-implements a very constant measure loop outside labview
-reads a complete block of nos scans
-during block read, the thread is highest 
-We recommend this example as starting point for own applications.
-Call the SetupDMA vi only once with the max. RAM you will ever need.
-As this takes a while, you should use smaller sub buffers by using parts of this big buffer
-and should not allocate new buffers again.
+After this values have been entered, the "alloc mem" button must be pressed,
+before the first measurement can be started. Each time these parameters are
+changed, the amount of allocated memory must be updated as well.
 
-usage:
-after read the slider can select the scan which is displayed
-first hit run, then hit arm/clear and then read.
-For a new block of scans press stop then arm and then read again.
+A single run can be started by clicking the "start" button in the lower right
+box of the panel. A single run cycles through all the blocks and performes as
+many samples per block as previously being specified.
+
+The exposure time can be modified in the same box and should not be much lower
+than 0,125 ms. 
+
+The measurement can also be done continuously after activating the correspondig
+switch in the same box. The measurement can be aborted by pressing ESC.
+
+Before LabVIEW can be terminated, the "exit here" button must be pressed in
+order to stop the cam control program and its background processes propperly.
+
+After a single run or during a measurement, the two sliders can be used to
+browse through the blocks and the samples.
 
 
 About
