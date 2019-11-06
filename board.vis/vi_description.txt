@@ -221,7 +221,7 @@ output: none
 
 OpenShutter.vi
 DLLdef.: void  DLLOpenShutter(uint32_t drv);
-function: open shutter for sensors with EC (exposure control) / sets IFC signal
+function: open shutter for sensors with EC (exposure control) / sets IFC signal, if not set the shutter is triggert by EC Ctrl
 input1: board number (=1 if one PCI board)
 output: none
 
