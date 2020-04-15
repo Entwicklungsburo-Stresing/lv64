@@ -32,23 +32,6 @@ win3 : length of space0 BAR =0x3f
 win4 : vendor ID = EBST
 win5 : PCI board version
 
-Cal16Bit.vi
-DLLdef.: void  DLLCal16Bit(uint32_t drv, uint32_t zadr);
-function: starts calibrate cycle for older ADC16061 converter,
-not needed for actual 16 bit version
-input1: board number (=1 if one PCI board)
-input2: zadr = 1, not needed, only if in addressed mode
-output: none
-
-clearRead.vi
-DLLdef.: void  DLLClrRead(uint32_t drvno, uint32_t fftlines, uint32_t zadr, uint32_t CCDClrCount);
-function: needed to erase all charges after a long pause and overexposure
-reads camera clrcount times and don't keep data.
-input1: board number (=1 if one PCI board)
-input2: fftlines =0 for most sensors, = number of lines for binning if FFT sensor
-input3: zadr = 1, not needed, only if in addressed mode
-input4: clrcount : number of reads, depends on sensor
-output: none
 
 closeshutter.vi
 DLLdef.: void  DLLCloseShutter(uint32_t arg1);
