@@ -2,7 +2,7 @@ Howto operate the cameras with LabVIEW
 
 Usage:
 After run you can set the boards and some other params in the right upper frame.
-Tehn press "Initialize"
+Then press "Initialize"
 
 The camera can perform a specific number of samples in a block-wise fashion.
 The number of samples per block (nos) and the number of total blocks (nob)
