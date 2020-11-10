@@ -20,7 +20,7 @@ The exposure time can be modified in the same box and should not be lower
 than 0,125 ms. If external trigger is used, be sure not to exceed the 51kHz frontier.
 
 The measurement can also be done continuously after activating the correspondig
-switch in the same box. 
+switch in the same box. Additionaly you can use "fast continuous mode", it sets nob to 0 and optimize nos.
 The measurement can be stopped by pressing ESC. Now the last blocks can be examined 
 by moving the sliders.
 
