@@ -1,4 +1,4 @@
-Howto operate the cameras with LabVIEW
+How to operate the cameras with LabVIEW
 
 Usage:
 After run you can set the boards and some other params in the right upper frame.
@@ -16,11 +16,11 @@ A single run can be started by clicking the "start" button in the lower right
 box of the panel. A single run cycles through all the blocks and performes as
 many samples per block as previously being specified.
 
-The exposure time can be modified in the same box and should not be lower
-than 0,125 ms. If external trigger is used, be sure not to exceed the 51kHz frontier.
+The exposure time can be modified in the STIMER box or if external trigger is used, be sure not 
+to exceed the 51kHz frontier.
 
 The measurement can also be done continuously after activating the correspondig
-switch in the same box. Additionaly you can use "fast continuous mode", it sets nob to 0 and optimize nos.
+switch in the same box. Additionaly you can use "fast continuous mode", it sets nob to 1 and optimize nos.
 The measurement can be stopped by pressing ESC. Now the last blocks can be examined 
 by moving the sliders.
 
@@ -35,7 +35,7 @@ browse through the blocks and the samples.
 
 About
 can read the registers of the PCIE board.
-should not deliver zeros or 0xFF
+Is intended for testing the driver install and should not deliver zeros or 0xFF
 
 
 Before calling any sub VIs, Init-> InitDrv + InitBrd  must have been called, 
