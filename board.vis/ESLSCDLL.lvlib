@@ -60,14 +60,18 @@
 		<Item Name="RS_TOREG.vi" Type="VI" URL="../RS_TOREG.vi"/>
 		<Item Name="SendFLCam.vi" Type="VI" URL="../SendFLCam.vi"/>
 		<Item Name="SendFLCam_DAC.vi" Type="VI" URL="../SendFLCam_DAC.vi"/>
+		<Item Name="SetBDAT.vi" Type="VI" URL="../SetBDAT.vi"/>
 		<Item Name="SetBEC.vi" Type="VI" URL="../SetBEC.vi"/>
+		<Item Name="SetBoardVars.vi" Type="VI" URL="../SetBoardVars.vi"/>
 		<Item Name="SetBSlope.vi" Type="VI" URL="../SetBSlope.vi"/>
 		<Item Name="SetBTI.vi" Type="VI" URL="../SetBTI.vi"/>
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetGain.vi" Type="VI" URL="../SetGain.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
+		<Item Name="SetGlobalVariables.vi" Type="VI" URL="../SetGlobalVariables.vi"/>
 		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
+		<Item Name="SetSDAT.vi" Type="VI" URL="../SetSDAT.vi"/>
 		<Item Name="SetSEC.vi" Type="VI" URL="../SetSEC.vi"/>
 		<Item Name="SetSensorType.vi" Type="VI" URL="../SetSensorType.vi"/>
 		<Item Name="SetSTI.vi" Type="VI" URL="../SetSTI.vi"/>
@@ -76,6 +80,7 @@
 		<Item Name="SetTOREG_thread.vi" Type="VI" URL="../SetTOREG_thread.vi"/>
 		<Item Name="SetupArea.vi" Type="VI" URL="../SetupArea.vi"/>
 		<Item Name="SetupFullBinning.vi" Type="VI" URL="../SetupFullBinning.vi"/>
+		<Item Name="SetupPCIE_DMA.vi" Type="VI" URL="../SetupPCIE_DMA.vi"/>
 		<Item Name="SetupROI.vi" Type="VI" URL="../SetupROI.vi"/>
 		<Item Name="SetVCLKReg.vi" Type="VI" URL="../SetVCLKReg.vi"/>
 		<Item Name="SetVPB.vi" Type="VI" URL="../SetVPB.vi"/>
