@@ -17,6 +17,7 @@
 		<Item Name="contFFLoop.vi" Type="VI" URL="../contFFLoop.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
+		<Item Name="DAC_setAllOutputs.vi" Type="VI" URL="../DAC_setAllOutputs.vi"/>
 		<Item Name="DAC_setOutput.vi" Type="VI" URL="../DAC_setOutput.vi"/>
 		<Item Name="deinit2dViewer.vi" Type="VI" URL="../deinit2dViewer.vi"/>
 		<Item Name="ErrMsgOff.vi" Type="VI" URL="../ErrMsgOff.vi"/>
