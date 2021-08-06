@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="board.vis" Type="Folder">
+		<Item Name="AbortMeasurement.vi" Type="VI" URL="../AbortMeasurement.vi"/>
 		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
 		<Item Name="AboutGPX.vi" Type="VI" URL="../AboutGPX.vi"/>
 		<Item Name="aboutS0.vi" Type="VI" URL="../aboutS0.vi"/>
