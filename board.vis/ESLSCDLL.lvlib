@@ -43,6 +43,8 @@
 		<Item Name="InitGPX.vi" Type="VI" URL="../InitGPX.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
 		<Item Name="InitProDLL.vi" Type="VI" URL="../InitProDLL.vi"/>
+		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
+		<Item Name="IOCtrl_setT0.vi" Type="VI" URL="../IOCtrl_setT0.vi"/>
 		<Item Name="isBlockOn.vi" Type="VI" URL="../isBlockOn.vi"/>
 		<Item Name="isMeasureOn.vi" Type="VI" URL="../isMeasureOn.vi"/>
 		<Item Name="LedOff.vi" Type="VI" URL="../LedOff.vi"/>
