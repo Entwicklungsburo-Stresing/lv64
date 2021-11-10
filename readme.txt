@@ -1,7 +1,7 @@
-How to operate the cameras with LabVIEW
+How to operate the cameras with LabVIEW FL30XX.VI
 
 Usage:
-After run you can set the boards and some other params in the right upper frame.
+After run you can set the boards and some other params in the left upper frame.
 Then press "Initialize"
 
 The camera can perform a specific number of samples in a block-wise fashion.
@@ -16,8 +16,8 @@ A single run can be started by clicking the "start" button in the lower right
 box of the panel. A single run cycles through all the blocks and performes as
 many samples per block as previously being specified.
 
-The exposure time can be modified in the STIMER box or if external trigger is used, be sure not 
-to exceed the max. frequency. The PC could hang if so.
+The exposure time can be modified in the STIME box or if external trigger is used, be sure not 
+to exceed the max. frequency.
 
 The measurement can also be done continuously after activating the correspondig
 switch in the same box. Additionaly you can use "fast continuous mode", it sets nob to 1 and optimize nos.
@@ -30,6 +30,8 @@ Now the blocks and scans can be examined by moving the sliders.
 
 To terminate the program you must use the "exit here" button, in order to stop
 the cam control program and its multi threaded background processes propperly.
+Only exit the program, when no measurement is running. If a measurement is running
+and you want to exit, stop it like described above.
 If you use the labviews exit, the driver will not be closed properly!
 That will lead to additional error messages.
 
