@@ -1,3 +1,5 @@
+For the use of `ESLSCDLL.dll` and `ESLSCDLL_pro.dll` Microsoft Visual C++ Redistributable (https://aka.ms/vs/16/release/vc_redist.x64.exe) must be installed.
+
 How to operate the cameras with LabVIEW FL30XX.VI
 
 Usage:
