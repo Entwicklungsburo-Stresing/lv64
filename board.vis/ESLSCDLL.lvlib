@@ -9,7 +9,6 @@
 		<Item Name="AboutGPX.vi" Type="VI" URL="../AboutGPX.vi"/>
 		<Item Name="aboutS0.vi" Type="VI" URL="../aboutS0.vi"/>
 		<Item Name="BitTest.vi" Type="VI" URL="../BitTest.vi"/>
-		<Item Name="BothSlopes_thread.vi" Type="VI" URL="../BothSlopes_thread.vi"/>
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
 		<Item Name="CalcTrms.vi" Type="VI" URL="../CalcTrms.vi"/>
@@ -27,13 +26,12 @@
 		<Item Name="ESLSCDLL.dll" Type="Document" URL="../ESLSCDLL.dll"/>
 		<Item Name="ESLSCDLL_pro.dll" Type="Document" URL="../ESLSCDLL_pro.dll"/>
 		<Item Name="Exit.vi" Type="VI" URL="../Exit.vi"/>
-		<Item Name="FFOvl.vi" Type="VI" URL="../FFOvl.vi"/>
 		<Item Name="FFStop.vi" Type="VI" URL="../FFStop.vi"/>
 		<Item Name="FFSWTrig.vi" Type="VI" URL="../FFSWTrig.vi"/>
 		<Item Name="FFValid.vi" Type="VI" URL="../FFValid.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
+		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
-		<Item Name="HiSlope_thread.vi" Type="VI" URL="../HiSlope_thread.vi"/>
 		<Item Name="InitBrd_multicam.vi" Type="VI" URL="../InitBrd_multicam.vi"/>
 		<Item Name="InitCam3001.vi" Type="VI" URL="../InitCam3001.vi"/>
 		<Item Name="InitCam3010.vi" Type="VI" URL="../InitCam3010.vi"/>
@@ -48,7 +46,6 @@
 		<Item Name="isBlockOn.vi" Type="VI" URL="../isBlockOn.vi"/>
 		<Item Name="isMeasureOn.vi" Type="VI" URL="../isMeasureOn.vi"/>
 		<Item Name="LedOff.vi" Type="VI" URL="../LedOff.vi"/>
-		<Item Name="LowSlope_thread.vi" Type="VI" URL="../LowSlope_thread.vi"/>
 		<Item Name="OpenShutter.vi" Type="VI" URL="../OpenShutter.vi"/>
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
@@ -57,22 +54,17 @@
 		<Item Name="ReadFFLoop_thread.vi" Type="VI" URL="../ReadFFLoop_thread.vi"/>
 		<Item Name="ReadL.vi" Type="VI" URL="../ReadL.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
-		<Item Name="ResetBEC.vi" Type="VI" URL="../ResetBEC.vi"/>
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
-		<Item Name="ResetSEC.vi" Type="VI" URL="../ResetSEC.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
-		<Item Name="RS_TOREG.vi" Type="VI" URL="../RS_TOREG.vi"/>
 		<Item Name="SendFLCam.vi" Type="VI" URL="../SendFLCam.vi"/>
 		<Item Name="SendFLCam_DAC.vi" Type="VI" URL="../SendFLCam_DAC.vi"/>
 		<Item Name="SetBDAT.vi" Type="VI" URL="../SetBDAT.vi"/>
 		<Item Name="SetBEC.vi" Type="VI" URL="../SetBEC.vi"/>
-		<Item Name="SetBoardVars.vi" Type="VI" URL="../SetBoardVars.vi"/>
 		<Item Name="SetBSlope.vi" Type="VI" URL="../SetBSlope.vi"/>
 		<Item Name="SetBTI.vi" Type="VI" URL="../SetBTI.vi"/>
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetGain.vi" Type="VI" URL="../SetGain.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
-		<Item Name="SetGlobalVariables.vi" Type="VI" URL="../SetGlobalVariables.vi"/>
 		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
 		<Item Name="SetSDAT.vi" Type="VI" URL="../SetSDAT.vi"/>
