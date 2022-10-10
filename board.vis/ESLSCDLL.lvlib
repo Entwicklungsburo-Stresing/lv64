@@ -44,7 +44,9 @@
 		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
 		<Item Name="IOCtrl_setT0.vi" Type="VI" URL="../IOCtrl_setT0.vi"/>
 		<Item Name="isBlockOn.vi" Type="VI" URL="../isBlockOn.vi"/>
+		<Item Name="isDsc.vi" Type="VI" URL="../isDsc.vi"/>
 		<Item Name="isMeasureOn.vi" Type="VI" URL="../isMeasureOn.vi"/>
+		<Item Name="isTdc.vi" Type="VI" URL="../isTdc.vi"/>
 		<Item Name="LedOff.vi" Type="VI" URL="../LedOff.vi"/>
 		<Item Name="OpenShutter.vi" Type="VI" URL="../OpenShutter.vi"/>
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
