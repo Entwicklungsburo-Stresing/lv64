@@ -31,6 +31,7 @@
 		<Item Name="FFValid.vi" Type="VI" URL="../FFValid.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
+		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="InitBrd_multicam.vi" Type="VI" URL="../InitBrd_multicam.vi"/>
 		<Item Name="InitCam3001.vi" Type="VI" URL="../InitCam3001.vi"/>
@@ -56,6 +57,7 @@
 		<Item Name="ReadFFLoop_thread.vi" Type="VI" URL="../ReadFFLoop_thread.vi"/>
 		<Item Name="ReadL.vi" Type="VI" URL="../ReadL.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
+		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
 		<Item Name="SendFLCam.vi" Type="VI" URL="../SendFLCam.vi"/>
@@ -65,6 +67,7 @@
 		<Item Name="SetBSlope.vi" Type="VI" URL="../SetBSlope.vi"/>
 		<Item Name="SetBTI.vi" Type="VI" URL="../SetBTI.vi"/>
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
+		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="SetGain.vi" Type="VI" URL="../SetGain.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
 		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
