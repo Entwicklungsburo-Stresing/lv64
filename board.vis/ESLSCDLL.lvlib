@@ -25,20 +25,19 @@
 		<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Error Converter (ErrCode or Status).vi"/>
 		<Item Name="ESLSCDLL.dll" Type="Document" URL="../ESLSCDLL.dll"/>
 		<Item Name="ESLSCDLL_pro.dll" Type="Document" URL="../ESLSCDLL_pro.dll"/>
-		<Item Name="Exit.vi" Type="VI" URL="../Exit.vi"/>
-		<Item Name="FFStop.vi" Type="VI" URL="../FFStop.vi"/>
+		<Item Name="ExitDriver.vi" Type="VI" URL="../ExitDriver.vi"/>
 		<Item Name="FFSWTrig.vi" Type="VI" URL="../FFSWTrig.vi"/>
 		<Item Name="FFValid.vi" Type="VI" URL="../FFValid.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
-		<Item Name="InitBrd_multicam.vi" Type="VI" URL="../InitBrd_multicam.vi"/>
+		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
 		<Item Name="InitCam3001.vi" Type="VI" URL="../InitCam3001.vi"/>
 		<Item Name="InitCam3010.vi" Type="VI" URL="../InitCam3010.vi"/>
 		<Item Name="InitCam3030.vi" Type="VI" URL="../InitCam3030.vi"/>
 		<Item Name="InitCamGeneral.vi" Type="VI" URL="../InitCamGeneral.vi"/>
-		<Item Name="InitDrv_thread.vi" Type="VI" URL="../InitDrv_thread.vi"/>
+		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
 		<Item Name="InitGPX.vi" Type="VI" URL="../InitGPX.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
 		<Item Name="InitProDLL.vi" Type="VI" URL="../InitProDLL.vi"/>
@@ -54,7 +53,6 @@
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
 		<Item Name="OutTrigP.vi" Type="VI" URL="../OutTrigP.vi"/>
 		<Item Name="ReadB.vi" Type="VI" URL="../ReadB.vi"/>
-		<Item Name="ReadFFLoop_thread.vi" Type="VI" URL="../ReadFFLoop_thread.vi"/>
 		<Item Name="ReadL.vi" Type="VI" URL="../ReadL.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
@@ -86,6 +84,7 @@
 		<Item Name="SetVCLKReg.vi" Type="VI" URL="../SetVCLKReg.vi"/>
 		<Item Name="SetVPB.vi" Type="VI" URL="../SetVPB.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
+		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
 		<Item Name="waitForBlockReady.vi" Type="VI" URL="../waitForBlockReady.vi"/>
 		<Item Name="waitForMeasureReady.vi" Type="VI" URL="../waitForMeasureReady.vi"/>
