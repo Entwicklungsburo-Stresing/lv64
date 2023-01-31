@@ -17,8 +17,9 @@
 		<Item Name="contFFLoop.vi" Type="VI" URL="../contFFLoop.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
-		<Item Name="DAC_setAllOutputs.vi" Type="VI" URL="../DAC_setAllOutputs.vi"/>
-		<Item Name="DAC_setOutput.vi" Type="VI" URL="../DAC_setOutput.vi"/>
+		<Item Name="DAC8568_sendData.vi" Type="VI" URL="../DAC8568_sendData.vi"/>
+		<Item Name="DAC8568_setAllOutputs.vi" Type="VI" URL="../DAC8568_setAllOutputs.vi"/>
+		<Item Name="DAC8568_setOutput.vi" Type="VI" URL="../DAC8568_setOutput.vi"/>
 		<Item Name="deinit2dViewer.vi" Type="VI" URL="../deinit2dViewer.vi"/>
 		<Item Name="ErrMsgOff.vi" Type="VI" URL="../ErrMsgOff.vi"/>
 		<Item Name="ErrMsgOn.vi" Type="VI" URL="../ErrMsgOn.vi"/>
@@ -59,7 +60,6 @@
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
 		<Item Name="SendFLCam.vi" Type="VI" URL="../SendFLCam.vi"/>
-		<Item Name="SendFLCam_DAC.vi" Type="VI" URL="../SendFLCam_DAC.vi"/>
 		<Item Name="SetBDAT.vi" Type="VI" URL="../SetBDAT.vi"/>
 		<Item Name="SetBEC.vi" Type="VI" URL="../SetBEC.vi"/>
 		<Item Name="SetBSlope.vi" Type="VI" URL="../SetBSlope.vi"/>
