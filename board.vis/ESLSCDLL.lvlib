@@ -66,7 +66,6 @@
 		<Item Name="SetBTI.vi" Type="VI" URL="../SetBTI.vi"/>
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
-		<Item Name="SetGain.vi" Type="VI" URL="../SetGain.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
 		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
