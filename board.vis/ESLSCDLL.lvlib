@@ -17,7 +17,6 @@
 		<Item Name="contFFLoop.vi" Type="VI" URL="../contFFLoop.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
-		<Item Name="DAC8568_sendData.vi" Type="VI" URL="../DAC8568_sendData.vi"/>
 		<Item Name="DAC8568_setAllOutputs.vi" Type="VI" URL="../DAC8568_setAllOutputs.vi"/>
 		<Item Name="DAC8568_setOutput.vi" Type="VI" URL="../DAC8568_setOutput.vi"/>
 		<Item Name="deinit2dViewer.vi" Type="VI" URL="../deinit2dViewer.vi"/>
@@ -27,21 +26,14 @@
 		<Item Name="ESLSCDLL.dll" Type="Document" URL="../ESLSCDLL.dll"/>
 		<Item Name="ESLSCDLL_pro.dll" Type="Document" URL="../ESLSCDLL_pro.dll"/>
 		<Item Name="ExitDriver.vi" Type="VI" URL="../ExitDriver.vi"/>
-		<Item Name="FFSWTrig.vi" Type="VI" URL="../FFSWTrig.vi"/>
-		<Item Name="FFValid.vi" Type="VI" URL="../FFValid.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
-		<Item Name="InitCam3001.vi" Type="VI" URL="../InitCam3001.vi"/>
-		<Item Name="InitCam3010.vi" Type="VI" URL="../InitCam3010.vi"/>
 		<Item Name="InitCam3030.vi" Type="VI" URL="../InitCam3030.vi"/>
-		<Item Name="InitCamGeneral.vi" Type="VI" URL="../InitCamGeneral.vi"/>
 		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
-		<Item Name="InitGPX.vi" Type="VI" URL="../InitGPX.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
-		<Item Name="InitProDLL.vi" Type="VI" URL="../InitProDLL.vi"/>
 		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
 		<Item Name="IOCtrl_setT0.vi" Type="VI" URL="../IOCtrl_setT0.vi"/>
 		<Item Name="isBlockOn.vi" Type="VI" URL="../isBlockOn.vi"/>
@@ -59,29 +51,13 @@
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
-		<Item Name="SendFLCam.vi" Type="VI" URL="../SendFLCam.vi"/>
-		<Item Name="SetBDAT.vi" Type="VI" URL="../SetBDAT.vi"/>
-		<Item Name="SetBEC.vi" Type="VI" URL="../SetBEC.vi"/>
-		<Item Name="SetBSlope.vi" Type="VI" URL="../SetBSlope.vi"/>
-		<Item Name="SetBTI.vi" Type="VI" URL="../SetBTI.vi"/>
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
 		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
-		<Item Name="SetSDAT.vi" Type="VI" URL="../SetSDAT.vi"/>
-		<Item Name="SetSEC.vi" Type="VI" URL="../SetSEC.vi"/>
-		<Item Name="SetSensorType.vi" Type="VI" URL="../SetSensorType.vi"/>
-		<Item Name="SetSTI.vi" Type="VI" URL="../SetSTI.vi"/>
 		<Item Name="SetSTimer.vi" Type="VI" URL="../SetSTimer.vi"/>
 		<Item Name="SetTemp.vi" Type="VI" URL="../SetTemp.vi"/>
-		<Item Name="SetTOREG_thread.vi" Type="VI" URL="../SetTOREG_thread.vi"/>
-		<Item Name="SetupArea.vi" Type="VI" URL="../SetupArea.vi"/>
-		<Item Name="SetupFullBinning.vi" Type="VI" URL="../SetupFullBinning.vi"/>
-		<Item Name="SetupPCIE_DMA.vi" Type="VI" URL="../SetupPCIE_DMA.vi"/>
-		<Item Name="SetupROI.vi" Type="VI" URL="../SetupROI.vi"/>
-		<Item Name="SetVCLKReg.vi" Type="VI" URL="../SetVCLKReg.vi"/>
-		<Item Name="SetVPB.vi" Type="VI" URL="../SetVPB.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
