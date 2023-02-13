@@ -7,7 +7,6 @@
 		<Item Name="AbortMeasurement.vi" Type="VI" URL="../AbortMeasurement.vi"/>
 		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
 		<Item Name="AboutGPX.vi" Type="VI" URL="../AboutGPX.vi"/>
-		<Item Name="aboutS0.vi" Type="VI" URL="../aboutS0.vi"/>
 		<Item Name="BitTest.vi" Type="VI" URL="../BitTest.vi"/>
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
@@ -45,7 +44,7 @@
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
 		<Item Name="OutTrigP.vi" Type="VI" URL="../OutTrigP.vi"/>
 		<Item Name="ReadB.vi" Type="VI" URL="../ReadB.vi"/>
-		<Item Name="ReadL.vi" Type="VI" URL="../ReadL.vi"/>
+		<Item Name="readRegisterS0_32.vi" Type="VI" URL="../readRegisterS0_32.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
@@ -53,7 +52,6 @@
 		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
-		<Item Name="SetMeasurementParameters.vi" Type="VI" URL="../SetMeasurementParameters.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
 		<Item Name="SetSTimer.vi" Type="VI" URL="../SetSTimer.vi"/>
 		<Item Name="SetTemp.vi" Type="VI" URL="../SetTemp.vi"/>
