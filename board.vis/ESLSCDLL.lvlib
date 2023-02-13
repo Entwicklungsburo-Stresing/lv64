@@ -14,7 +14,6 @@
 		<Item Name="CalcTrms.vi" Type="VI" URL="../CalcTrms.vi"/>
 		<Item Name="ClearUserRegs.vi" Type="VI" URL="../ClearUserRegs.vi"/>
 		<Item Name="closeshutter.vi" Type="VI" URL="../closeshutter.vi"/>
-		<Item Name="contFFLoop.vi" Type="VI" URL="../contFFLoop.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
 		<Item Name="DAC8568_setAllOutputs.vi" Type="VI" URL="../DAC8568_setAllOutputs.vi"/>
