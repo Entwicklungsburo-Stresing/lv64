@@ -27,6 +27,7 @@
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
 		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
+		<Item Name="InitGPX.vi" Type="VI" URL="../InitGPX.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
 		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
 		<Item Name="IOCtrl_setT0.vi" Type="VI" URL="../IOCtrl_setT0.vi"/>
@@ -45,9 +46,11 @@
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
 		<Item Name="setBitS0_32.vi" Type="VI" URL="../setBitS0_32.vi"/>
+		<Item Name="SetContinuousMeasurement.vi" Type="VI" URL="../SetContinuousMeasurement.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
 		<Item Name="SetTemp.vi" Type="VI" URL="../SetTemp.vi"/>
+		<Item Name="SetTOREG.vi" Type="VI" URL="../SetTOREG.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
