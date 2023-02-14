@@ -16,7 +16,6 @@
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
 		<Item Name="DAC8568_setAllOutputs.vi" Type="VI" URL="../DAC8568_setAllOutputs.vi"/>
-		<Item Name="DAC8568_setOutput.vi" Type="VI" URL="../DAC8568_setOutput.vi"/>
 		<Item Name="deinit2dViewer.vi" Type="VI" URL="../deinit2dViewer.vi"/>
 		<Item Name="ErrMsgOff.vi" Type="VI" URL="../ErrMsgOff.vi"/>
 		<Item Name="ErrMsgOn.vi" Type="VI" URL="../ErrMsgOn.vi"/>
@@ -29,7 +28,6 @@
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
-		<Item Name="InitCam3030.vi" Type="VI" URL="../InitCam3030.vi"/>
 		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
 		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
@@ -43,17 +41,15 @@
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
 		<Item Name="OutTrigP.vi" Type="VI" URL="../OutTrigP.vi"/>
-		<Item Name="ReadB.vi" Type="VI" URL="../ReadB.vi"/>
+		<Item Name="readRegisterS0_8.vi" Type="VI" URL="../readRegisterS0_8.vi"/>
 		<Item Name="readRegisterS0_32.vi" Type="VI" URL="../readRegisterS0_32.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
-		<Item Name="SetBTimer.vi" Type="VI" URL="../SetBTimer.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
 		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
-		<Item Name="SetSTimer.vi" Type="VI" URL="../SetSTimer.vi"/>
 		<Item Name="SetTemp.vi" Type="VI" URL="../SetTemp.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
