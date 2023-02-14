@@ -6,12 +6,10 @@
 	<Item Name="board.vis" Type="Folder">
 		<Item Name="AbortMeasurement.vi" Type="VI" URL="../AbortMeasurement.vi"/>
 		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
-		<Item Name="AboutGPX.vi" Type="VI" URL="../AboutGPX.vi"/>
 		<Item Name="BitTest.vi" Type="VI" URL="../BitTest.vi"/>
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
 		<Item Name="CalcTrms.vi" Type="VI" URL="../CalcTrms.vi"/>
-		<Item Name="ClearUserRegs.vi" Type="VI" URL="../ClearUserRegs.vi"/>
 		<Item Name="closeshutter.vi" Type="VI" URL="../closeshutter.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
@@ -36,7 +34,6 @@
 		<Item Name="isDsc.vi" Type="VI" URL="../isDsc.vi"/>
 		<Item Name="isMeasureOn.vi" Type="VI" URL="../isMeasureOn.vi"/>
 		<Item Name="isTdc.vi" Type="VI" URL="../isTdc.vi"/>
-		<Item Name="LedOff.vi" Type="VI" URL="../LedOff.vi"/>
 		<Item Name="OpenShutter.vi" Type="VI" URL="../OpenShutter.vi"/>
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
@@ -44,19 +41,19 @@
 		<Item Name="readRegisterS0_8.vi" Type="VI" URL="../readRegisterS0_8.vi"/>
 		<Item Name="readRegisterS0_32.vi" Type="VI" URL="../readRegisterS0_32.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
+		<Item Name="resetBitS0_32.vi" Type="VI" URL="../resetBitS0_32.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
-		<Item Name="ResetS0Bit.vi" Type="VI" URL="../ResetS0Bit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
+		<Item Name="setBitS0_32.vi" Type="VI" URL="../setBitS0_32.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
 		<Item Name="setGamma.vi" Type="VI" URL="../setGamma.vi"/>
-		<Item Name="SetS0Bit.vi" Type="VI" URL="../SetS0Bit.vi"/>
 		<Item Name="SetTemp.vi" Type="VI" URL="../SetTemp.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
 		<Item Name="waitForBlockReady.vi" Type="VI" URL="../waitForBlockReady.vi"/>
 		<Item Name="waitForMeasureReady.vi" Type="VI" URL="../waitForMeasureReady.vi"/>
-		<Item Name="WriteB.vi" Type="VI" URL="../WriteB.vi"/>
-		<Item Name="WriteL.vi" Type="VI" URL="../WriteL.vi"/>
+		<Item Name="writeRegisterS0_8.vi" Type="VI" URL="../writeRegisterS0_8.vi"/>
+		<Item Name="writeRegisterS0_32.vi" Type="VI" URL="../writeRegisterS0_32.vi"/>
 	</Item>
 </Library>
