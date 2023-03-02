@@ -22,6 +22,7 @@
 		<Item Name="ESLSCDLL_pro.dll" Type="Document" URL="../ESLSCDLL_pro.dll"/>
 		<Item Name="ExitDriver.vi" Type="VI" URL="../ExitDriver.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
+		<Item Name="GetAllSpecialPixelInformation.vi" Type="VI" URL="../GetAllSpecialPixelInformation.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
