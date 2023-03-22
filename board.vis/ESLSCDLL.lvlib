@@ -54,6 +54,7 @@
 		<Item Name="SetTOREG.vi" Type="VI" URL="../SetTOREG.vi"/>
 		<Item Name="show2dViewer.vi" Type="VI" URL="../show2dViewer.vi"/>
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
+		<Item Name="StartMeasurement_blocking.vi" Type="VI" URL="../StartMeasurement_blocking.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
 		<Item Name="waitForBlockReady.vi" Type="VI" URL="../waitForBlockReady.vi"/>
 		<Item Name="waitForMeasureReady.vi" Type="VI" URL="../waitForMeasureReady.vi"/>
