@@ -19,7 +19,6 @@
 		<Item Name="ErrMsgOn.vi" Type="VI" URL="../ErrMsgOn.vi"/>
 		<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="../Error Converter (ErrCode or Status).vi"/>
 		<Item Name="ESLSCDLL.dll" Type="Document" URL="../ESLSCDLL.dll"/>
-		<Item Name="ESLSCDLL_pro.dll" Type="Document" URL="../ESLSCDLL_pro.dll"/>
 		<Item Name="ExitDriver.vi" Type="VI" URL="../ExitDriver.vi"/>
 		<Item Name="FillUserBufferWithDummyData.vi" Type="VI" URL="../FillUserBufferWithDummyData.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
