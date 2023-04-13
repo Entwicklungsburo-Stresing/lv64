@@ -11,7 +11,7 @@ FL30XX_simple.vi	| Simple program to visualize the basic operating flow
 
 ## Dependencies 
 
-- For the use of `ESLSCDLL.dll` and `ESLSCDLL_pro.dll` [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) must be installed.
+- For the use of `ESLSCDLL.dll` [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) must be installed.
 - LabVIEW 15 or newer, 64 bit version
 
 ## How to operate the cameras
