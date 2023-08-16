@@ -1,6 +1,6 @@
 # Labview examples for Stresing Cameras
 
-This repository contains example programs for operating [Stresing](stresing.de) cameras with [LabVIEW](https://www.ni.com/en-us/shop/labview.html).
+This repository contains example programs for operating [Stresing](https://stresing.de/) cameras with [LabVIEW](https://www.ni.com/en-us/shop/labview.html).
 
 file				| description
 :---				| :---
