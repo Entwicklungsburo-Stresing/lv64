@@ -7,6 +7,7 @@
 		<Item Name="AbortMeasurement.vi" Type="VI" URL="../AbortMeasurement.vi"/>
 		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
 		<Item Name="BitTest.vi" Type="VI" URL="../BitTest.vi"/>
+		<Item Name="BlockFrequencyTooHigh.vi" Type="VI" URL="../BlockFrequencyTooHigh.vi"/>
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
 		<Item Name="CalcTrms.vi" Type="VI" URL="../CalcTrms.vi"/>
@@ -44,8 +45,11 @@
 		<Item Name="readRegisterS0_32.vi" Type="VI" URL="../readRegisterS0_32.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
 		<Item Name="resetBitS0_32.vi" Type="VI" URL="../resetBitS0_32.vi"/>
+		<Item Name="ResetBlockFrequencyBit.vi" Type="VI" URL="../ResetBlockFrequencyBit.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
+		<Item Name="ResetScanFrequencyBit.vi" Type="VI" URL="../ResetScanFrequencyBit.vi"/>
 		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
+		<Item Name="ScanFrequencyTooHigh.vi" Type="VI" URL="../ScanFrequencyTooHigh.vi"/>
 		<Item Name="setBitS0_32.vi" Type="VI" URL="../setBitS0_32.vi"/>
 		<Item Name="SetContinuousMeasurement.vi" Type="VI" URL="../SetContinuousMeasurement.vi"/>
 		<Item Name="SetDIRDSC.vi" Type="VI" URL="../SetDIRDSC.vi"/>
