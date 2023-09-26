@@ -11,6 +11,8 @@
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
 		<Item Name="CalcTrms.vi" Type="VI" URL="../CalcTrms.vi"/>
+		<Item Name="CameraStatusOverTemp.vi" Type="VI" URL="../CameraStatusOverTemp.vi"/>
+		<Item Name="CameraStatusTempGood.vi" Type="VI" URL="../CameraStatusTempGood.vi"/>
 		<Item Name="closeshutter.vi" Type="VI" URL="../closeshutter.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
