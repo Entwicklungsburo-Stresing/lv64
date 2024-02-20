@@ -6,7 +6,6 @@
 	<Item Name="board.vis" Type="Folder">
 		<Item Name="AbortMeasurement.vi" Type="VI" URL="../AbortMeasurement.vi"/>
 		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
-		<Item Name="BitTest.vi" Type="VI" URL="../BitTest.vi"/>
 		<Item Name="BlockFrequencyTooHigh.vi" Type="VI" URL="../BlockFrequencyTooHigh.vi"/>
 		<Item Name="CalcMeasureTimeInSeconds.vi" Type="VI" URL="../CalcMeasureTimeInSeconds.vi"/>
 		<Item Name="CalcRamUsage.vi" Type="VI" URL="../CalcRamUsage.vi"/>
@@ -44,6 +43,7 @@
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
 		<Item Name="OTrig_l.vi" Type="VI" URL="../OTrig_l.vi"/>
 		<Item Name="OutTrigP.vi" Type="VI" URL="../OutTrigP.vi"/>
+		<Item Name="ReadBitS0_32.vi" Type="VI" URL="../ReadBitS0_32.vi"/>
 		<Item Name="readRegisterS0_8.vi" Type="VI" URL="../readRegisterS0_8.vi"/>
 		<Item Name="readRegisterS0_32.vi" Type="VI" URL="../readRegisterS0_32.vi"/>
 		<Item Name="RegisterUserEvents.vi" Type="VI" URL="../RegisterUserEvents.vi"/>
