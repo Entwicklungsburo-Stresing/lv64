@@ -26,8 +26,12 @@
 		<Item Name="FindCam.vi" Type="VI" URL="../FindCam.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
 		<Item Name="GetAllSpecialPixelInformation.vi" Type="VI" URL="../GetAllSpecialPixelInformation.vi"/>
+		<Item Name="GetBonLength.vi" Type="VI" URL="../GetBonLength.vi"/>
+		<Item Name="GetBonPeriod.vi" Type="VI" URL="../GetBonPeriod.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
+		<Item Name="GetXckLength.vi" Type="VI" URL="../GetXckLength.vi"/>
+		<Item Name="GetXckPeriod.vi" Type="VI" URL="../GetXckPeriod.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
 		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
 		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
