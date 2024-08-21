@@ -26,6 +26,7 @@
 		<Item Name="FindCam.vi" Type="VI" URL="../FindCam.vi"/>
 		<Item Name="FreeMemInfo.vi" Type="VI" URL="../FreeMemInfo.vi"/>
 		<Item Name="GetAllSpecialPixelInformation.vi" Type="VI" URL="../GetAllSpecialPixelInformation.vi"/>
+		<Item Name="GetBlockOn.vi" Type="VI" URL="../GetBlockOn.vi"/>
 		<Item Name="GetBonLength.vi" Type="VI" URL="../GetBonLength.vi"/>
 		<Item Name="GetBonPeriod.vi" Type="VI" URL="../GetBonPeriod.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
