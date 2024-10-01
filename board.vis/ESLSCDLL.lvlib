@@ -15,8 +15,10 @@
 		<Item Name="closeshutter.vi" Type="VI" URL="../closeshutter.vi"/>
 		<Item Name="CopyAllData.vi" Type="VI" URL="../CopyAllData.vi"/>
 		<Item Name="CopyAllData2D.vi" Type="VI" URL="../CopyAllData2D.vi"/>
+		<Item Name="CopyAllDataByReference.vi" Type="VI" URL="../CopyAllDataByReference.vi"/>
 		<Item Name="CopyOneBlock.vi" Type="VI" URL="../CopyOneBlock.vi"/>
 		<Item Name="CopyOneBlock2D.vi" Type="VI" URL="../CopyOneBlock2D.vi"/>
+		<Item Name="CopyOneScan.vi" Type="VI" URL="../CopyOneScan.vi"/>
 		<Item Name="DAC8568_setAllOutputs.vi" Type="VI" URL="../DAC8568_setAllOutputs.vi"/>
 		<Item Name="deinit2dViewer.vi" Type="VI" URL="../deinit2dViewer.vi"/>
 		<Item Name="ErrMsgOff.vi" Type="VI" URL="../ErrMsgOff.vi"/>
@@ -58,7 +60,6 @@
 		<Item Name="ResetBlockFrequencyBit.vi" Type="VI" URL="../ResetBlockFrequencyBit.vi"/>
 		<Item Name="ResetDSC.vi" Type="VI" URL="../ResetDSC.vi"/>
 		<Item Name="ResetScanFrequencyBit.vi" Type="VI" URL="../ResetScanFrequencyBit.vi"/>
-		<Item Name="ReturnFrame.vi" Type="VI" URL="../ReturnFrame.vi"/>
 		<Item Name="ScanFrequencyTooHigh.vi" Type="VI" URL="../ScanFrequencyTooHigh.vi"/>
 		<Item Name="setBitS0_32.vi" Type="VI" URL="../setBitS0_32.vi"/>
 		<Item Name="SetContinuousMeasurement.vi" Type="VI" URL="../SetContinuousMeasurement.vi"/>
