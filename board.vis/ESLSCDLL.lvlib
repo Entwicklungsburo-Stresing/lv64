@@ -35,6 +35,7 @@
 		<Item Name="GetBonPeriod.vi" Type="VI" URL="../GetBonPeriod.vi"/>
 		<Item Name="getCurrentScanNumber.vi" Type="VI" URL="../getCurrentScanNumber.vi"/>
 		<Item Name="GetDSC.vi" Type="VI" URL="../GetDSC.vi"/>
+		<Item Name="GetMeasureOn.vi" Type="VI" URL="../GetMeasureOn.vi"/>
 		<Item Name="GetXckLength.vi" Type="VI" URL="../GetXckLength.vi"/>
 		<Item Name="GetXckPeriod.vi" Type="VI" URL="../GetXckPeriod.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
@@ -44,9 +45,7 @@
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
 		<Item Name="IOCtrl_setAllOutputs.vi" Type="VI" URL="../IOCtrl_setAllOutputs.vi"/>
 		<Item Name="IOCtrl_setT0.vi" Type="VI" URL="../IOCtrl_setT0.vi"/>
-		<Item Name="isBlockOn.vi" Type="VI" URL="../isBlockOn.vi"/>
 		<Item Name="isDsc.vi" Type="VI" URL="../isDsc.vi"/>
-		<Item Name="isMeasureOn.vi" Type="VI" URL="../isMeasureOn.vi"/>
 		<Item Name="isTdc.vi" Type="VI" URL="../isTdc.vi"/>
 		<Item Name="OpenShutter.vi" Type="VI" URL="../OpenShutter.vi"/>
 		<Item Name="OTrig_h.vi" Type="VI" URL="../OTrig_h.vi"/>
@@ -71,8 +70,8 @@
 		<Item Name="StartMeasurement.vi" Type="VI" URL="../StartMeasurement.vi"/>
 		<Item Name="StartMeasurement_blocking.vi" Type="VI" URL="../StartMeasurement_blocking.vi"/>
 		<Item Name="update2dViewer.vi" Type="VI" URL="../update2dViewer.vi"/>
-		<Item Name="waitForBlockReady.vi" Type="VI" URL="../waitForBlockReady.vi"/>
-		<Item Name="waitForMeasureReady.vi" Type="VI" URL="../waitForMeasureReady.vi"/>
+		<Item Name="WaitForBlockDone.vi" Type="VI" URL="../WaitForBlockDone.vi"/>
+		<Item Name="WaitForMeasureDone.vi" Type="VI" URL="../WaitForMeasureDone.vi"/>
 		<Item Name="writeRegisterS0_8.vi" Type="VI" URL="../writeRegisterS0_8.vi"/>
 		<Item Name="writeRegisterS0_32.vi" Type="VI" URL="../writeRegisterS0_32.vi"/>
 	</Item>
