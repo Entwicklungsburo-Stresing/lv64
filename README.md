@@ -9,6 +9,9 @@ config.vi			| Contains all settings to configure the correct camera system
 FL30XX.vi			| More complex program with event structures
 FL30XX_simple.vi	| Simple program to visualize the basic operating flow
 
+## FL30XX.vi
+![FL30XX.vi screenshot](./screenshots/FL30XX.png)
+
 ## Dependencies 
 
 - For the use of `ESLSCDLL.dll` [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) must be installed.
