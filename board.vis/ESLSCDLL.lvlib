@@ -39,7 +39,6 @@
 		<Item Name="GetXckLength.vi" Type="VI" URL="../GetXckLength.vi"/>
 		<Item Name="GetXckPeriod.vi" Type="VI" URL="../GetXckPeriod.vi"/>
 		<Item Name="Globals.vi" Type="VI" URL="../Globals.vi"/>
-		<Item Name="InitBoard.vi" Type="VI" URL="../InitBoard.vi"/>
 		<Item Name="InitDriver.vi" Type="VI" URL="../InitDriver.vi"/>
 		<Item Name="InitGPX.vi" Type="VI" URL="../InitGPX.vi"/>
 		<Item Name="InitMeasurement.vi" Type="VI" URL="../InitMeasurement.vi"/>
