@@ -29,8 +29,7 @@ After finishing a measurement the blocks and scans can be examined by moving the
 ## Basic flow of a measurement
 1. Load settings with `config.vi`
 2. Initialize the driver with `InitDriver.vi`
-3. Initialize the PCIe board with `InitBoard.vi`
-4. Initialize the software and the camera for the next measurement with `InitMeasurement.vi`
-5. Start the measurement with `StartMeasurement.vi` or with `StartMeasurement_blocking.vi` for a blocking call. The blocking call will return after the complete measurement is done. `StartMeasurement.vi` will start the measurement in a new thread and will return immediately.
-6. Get the data with `ReturnFrame.vi` for one frame, `CopyOneBlock.vi` for one block or `CopyAllData.vi` for the complete data.
-7. Before exiting the program, call `ExitDriver.vi`
+3. Initialize the software and the camera for the next measurement with `InitMeasurement.vi`
+4. Start the measurement with `StartMeasurement.vi` or with `StartMeasurement_blocking.vi` for a blocking call. The blocking call will return after the complete measurement is done. `StartMeasurement.vi` will start the measurement in a new thread and will return immediately.
+5. Get the data with `CopyOneScan.vi` for one frame, `CopyOneBlock.vi` for one block or `CopyAllData.vi` for the complete data.
+6. Before exiting the program, call `ExitDriver.vi`
