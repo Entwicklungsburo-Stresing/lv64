@@ -1,0 +1,88 @@
+name: Release
+
+# Runs when a version tag is pushed, e.g. "git push origin master 4.25.0".
+# Creates the GitHub release and uploads the source code to Nextcloud.
+# If the tagged commit is not on master (e.g. ci/release-test), it is a test: pre-release.
+on:
+  push:
+    tags: [ '[0-9]+.[0-9]+.[0-9]+' ]
+
+jobs:
+  # Create the GitHub release for the pushed tag
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      VERSION: ${{ github.ref_name }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # full history, to check if the tagged commit is on master
+
+      # 1. The tag started this run, so it exists; but there must be no release for it yet
+      - name: Check for existing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$VERSION" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "Release $VERSION already exists"
+            exit 1
+          fi
+
+      # 2. Test release: tagged commit is not on master, or the EBST_CAM release is a pre-release
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch origin master
+          if git merge-base --is-ancestor HEAD origin/master; then on_master=true; else on_master=false; fi
+          ebst_prerelease=$(gh release view "$VERSION" --repo Entwicklungsburo-Stresing/EBST_CAM \
+            --json isPrerelease --jq .isPrerelease 2> /dev/null || echo false)
+          prerelease=""
+          if [ "$on_master" != true ] || [ "$ebst_prerelease" = true ]; then
+            prerelease="--prerelease"
+          fi
+          echo "On master: $on_master, EBST_CAM pre-release: $ebst_prerelease"
+
+          # --generate-notes creates the "Full Changelog" link to the previous release, as before
+          gh release create "$VERSION" $prerelease \
+            --verify-tag \
+            --title "$VERSION" \
+            --generate-notes
+
+  # Archive the source code in Nextcloud: Shared/Release/<version>/
+  nextcloud:
+    needs: release
+    runs-on: ubuntu-24.04
+    env:
+      VERSION: ${{ github.ref_name }}
+
+    steps:
+      - name: Download source code
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$VERSION" --repo "$GITHUB_REPOSITORY" --archive zip --dir files
+          ls -l files
+
+      - name: Upload to Nextcloud
+        env:
+          NC_USER: ${{ secrets.NEXTCLOUD_USER }}
+          NC_PASSWORD: ${{ secrets.NEXTCLOUD_PASSWORD }}
+        run: |
+          folder="https://nextcloud.stresing.de/remote.php/dav/files/$NC_USER/Shared/Release/$VERSION"
+
+          # MKCOL creates the folder: 201 = created, 405 = already exists
+          code=$(curl -s -o /dev/null -w '%{http_code}' --retry 3 -u "$NC_USER:$NC_PASSWORD" -X MKCOL "$folder")
+          if [ "$code" != 201 ] && [ "$code" != 405 ]; then
+            echo "Could not create $VERSION folder: HTTP $code"
+            exit 1
+          fi
+
+          for file in files/*; do
+            echo "Uploading $(basename "$file")"
+            curl -fsS --retry 3 -u "$NC_USER:$NC_PASSWORD" -T "$file" "$folder/$(basename "$file")"
+          done
